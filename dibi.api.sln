@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dibi.api", "dibi.api\dibi.api.csproj", "{548FFD0F-6EC0-41B6-9135-896A26FFE26D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dibi.api", "dibi.api\dibi.api.csproj", "{548FFD0F-6EC0-41B6-9135-896A26FFE26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dibi.auth.models", "dibi.auth.models\dibi.auth.models.csproj", "{21622A65-4B65-4E44-9E0A-55E14F6B0633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dibi.web.api", "dibi.web.api\dibi.web.api.csproj", "{EA3045D3-C964-499F-8CC0-12B1727CF97A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{548FFD0F-6EC0-41B6-9135-896A26FFE26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{548FFD0F-6EC0-41B6-9135-896A26FFE26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{548FFD0F-6EC0-41B6-9135-896A26FFE26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21622A65-4B65-4E44-9E0A-55E14F6B0633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21622A65-4B65-4E44-9E0A-55E14F6B0633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21622A65-4B65-4E44-9E0A-55E14F6B0633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21622A65-4B65-4E44-9E0A-55E14F6B0633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3045D3-C964-499F-8CC0-12B1727CF97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3045D3-C964-499F-8CC0-12B1727CF97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3045D3-C964-499F-8CC0-12B1727CF97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3045D3-C964-499F-8CC0-12B1727CF97A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

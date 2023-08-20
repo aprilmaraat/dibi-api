@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace dibi.api.Controllers
+namespace Dibi.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

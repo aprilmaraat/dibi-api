@@ -1,4 +1,4 @@
-namespace dibi.api
+namespace Dibi.Api
 {
     public class WeatherForecast
     {
